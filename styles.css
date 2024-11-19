@@ -1,0 +1,50 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f9;
+}
+
+.counter-container {
+  margin: 50px auto;
+  padding: 20px;
+  width: 300px;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.counter-display {
+  margin: 20px 0;
+  font-size: 2rem;
+  color: #333;
+}
+
+.button-container button {
+  margin: 5px;
+  padding: 10px 15px;
+  font-size: 1rem;
+  color: #fff;
+  background: #007bff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.button-container button:hover {
+  background: #0056b3;
+}
+
+button:active {
+  transform: scale(0.98);
+}
+
+button#reset-btn {
+  background: #ff4d4d;
+}
+
+button#reset-btn:hover {
+  background: #cc0000;
+}
